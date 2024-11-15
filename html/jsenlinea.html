@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Mi tarea 04</h1>
+        <button onclick="document.getElementById('titulo').style.color = 'darkred'">Cambiar Color </button>
+        <button onclick="document.getElementById('titulo').style.fontSize = '50px'">Aumentar Tama&#241;o </button>
+        <button onclick="document.getElementById('titulo').innerText='Nuevo Texto Titulo'">Cambiar texto</button>
+    </header>
+    <nav>
+        <ul id="lista">
+            <li>Elemento  1</li>
+            <li>Elemento  2</li>
+            <li>Elemento  3</li>
+        </ul>
+        <button onclick="document.getElementById('lista').style.listStyleType = 'circle'">Cambiar Estilo de Vi&#241;eta</button>
+        <button onclick="document.getElementById('lista').style.color = 'green'">Cambiar Color </button>
+        <button onclick="document.getElementById('lista').innerHTML=document.getElementById('lista').innerHTML+'<li>Elemento  4</li>'">Agregar elemento</button>
+    
+        <ol id="listaNumerada">
+            <li>Primer paso</li>
+            <li>Segundo paso</li>
+            <li>Tercer paso</li>
+        </ol>
+        <button onclick="document.getElementById('listaNumerada').style.fontWeight = 'bold'">Negrita </button>
+        <button onclick="document.getElementById('listaNumerada').style.color = 'blue'">Cambiar Color </button>
+    </nav>
+    <section>
+        <h2 id="subtitulo">SubTarea 04</h2>
+        <button onclick="document.getElementById('subtitulo').style.textAlign = 'center'">Centrar </button>
+        <button onclick="document.getElementById('subtitulo').style.fontStyle = 'italic'">Cambiar a Cursiva</button>
+    
+        <p id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
+            quae obcaecati ullam tempore tempora aliquam unde cum. Reprehenderit 
+            ipsa aspernatur, aut quam unde, at debitis corporis recusandae ab esse sed?</p>
+        <button onclick="document.getElementById('parrafo').style.backgroundColor = 'cyan'">Cambiar Fondo</button>
+        <button onclick="document.getElementById('parrafo').style.padding = '15px'">Agregar Espaciado Interno </button>
+
+        <div id="caja">
+            <p>caja de contenido</p>
+        </div>
+        <button onclick="document.getElementById('caja').style.border = '2px solid black'">Agregar Borde </button>
+        <button onclick="document.getElementById('caja').style.width = '150px'">Aumentar Ancho </button>
+        <br>
+        <input id="entradaTexto" type="text" placeholder="Escribe algo">
+        <button onclick="document.getElementById('entradaTexto').style.backgroundColor = 'red'">Cambiar color fondo</button>
+
+    </section>
+    <footer>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jsexterno.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Mi tarea 04</h1>
+        <button onclick="cambiarColor('titulo', 'darkred')">Cambiar Color </button>
+        <button onclick="cambiarTamano('titulo', '50px')">Aumentar Tama&#241;o </button>
+        <button onclick="cambiarTexto('titulo', 'Nuevo Texto Titulo')">Cambiar texto</button>
+    </header>
+    
+    <nav>
+        <ul id="lista">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+        <button onclick="cambiarEstiloLista('lista', 'circle')">Cambiar Estilo de Vi&#241;eta</button>
+        <button onclick="cambiarColor('lista', 'green')">Cambiar Color </button>
+        <button onclick="agregarElemento('lista', '<li>Elemento 4</li>')">Agregar elemento</button>
+    
+        <ol id="listaNumerada">
+            <li>Primer paso</li>
+            <li>Segundo paso</li>
+            <li>Tercer paso</li>
+        </ol>
+        <button onclick="negrita('listaNumerada', 'bold')">Negrita </button>
+        <button onclick="cambiarColor('listaNumerada', 'blue')">Cambiar Color </button>
+    </nav>
+    
+    <section>
+        <h2 id="subtitulo">SubTarea 04</h2>
+        <button onclick="centrar('subtitulo', 'center')">Centrar </button>
+        <button onclick="cambiarCursiva('subtitulo', 'italic')">Cambiar a Cursiva</button>
+    
+        <p id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quae obcaecati ullam tempore tempora aliquam unde cum. Reprehenderit ipsa aspernatur, aut quam unde, at debitis corporis recusandae ab esse sed?</p>
+        <button onclick="cambiarFondo('parrafo', 'cyan')">Cambiar Fondo</button>
+        <button onclick="agregarEspaciado('parrafo', '15px')">Agregar Espaciado Interno </button>
+    
+        <div id="caja">
+            <p>Caja de contenido.</p>
+        </div>
+        <button onclick="agregarBorde('caja', '2px solid black')">Agregar Borde </button>
+        <button onclick="aumentarAncho('caja', '150px')">Aumentar Ancho </button>
+    
+        <br>
+        <input id="entradaTexto" type="text" placeholder="Escribe algo">
+        <button onclick="cambiarFondo('entradaTexto', 'red')">Cambiar color fondo</button>
+    </section>
+    
+    <footer>
+    </footer>
+</body>
+</html>
