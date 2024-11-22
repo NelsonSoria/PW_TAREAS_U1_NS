@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/calculadora.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav>
+
+    </nav>
+    <!--  div elemento usado para hace agrupaciones de elementos, 
+     tambien para hacer separaciones visuales
+     me permite dar contornos -->
+    <section>
+        <div class="container">
+            <div class="calculadora">
+
+                <div id="id-display" class="display">
+                    0
+                </div>
+                <button onclick="limpiarDisplay()" class="colmun-2">C</button>
+                <button onclick="borrarDigito()">&larr;</button>
+                <button onclick="recibirOP('div') " id="div">%</button>
+                <button onclick="recibirValor('num7')" id="num7">7</button>
+                <button onclick="recibirValor('num8')" id="num8">8</button>
+                <button onclick="recibirValor('num9')" id="num9">9</button>
+                <button onclick="recibirOP('x')" id="x">x</button>
+                <button onclick="recibirValor('num4')" id="num4">4 </button>
+                <button onclick="recibirValor('num5')" id="num5">5</button>
+                <button onclick="recibirValor('num6')" id="num6">6</button>
+                <button onclick="recibirOP('-')" id="-">-</button>
+                <button onclick="recibirValor('num1')" id="num1">1</button>
+                <button onclick="recibirValor('num2')" id="num2">2</button>
+                <button onclick="recibirValor('num3')" id="num3">3</button>
+                <button onclick="recibirOP('+')" id="+">+</button>
+                <button class="colmun-2" onclick="recibirValor('num0')" id="num0">0</button>
+                <button onclick="recibirValor('coma')" id="coma">.</button>
+                <button onclick="resultado ()">=</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
